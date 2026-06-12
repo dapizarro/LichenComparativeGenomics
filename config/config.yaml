@@ -1,0 +1,41 @@
+# Main configuration file for LichenComparativeGenomics
+
+project: "LichenComparativeGenomics"
+
+input:
+  genomes_dir: "data/raw/genomes"
+  metadata: "data/metadata/samples.tsv"
+
+output:
+  results_dir: "results"
+
+params:
+  threads: 8
+  busco_lineage: "pezizomycotina_odb10"
+  augustus_species: "botrytis_cinerea"
+  min_protein_length: 50
+  iqtree_model: "MFP+MERGE"
+  bootstrap: 1000
+  alrt: 1000
+
+mat_queries:
+  mat1_1_alpha: "resources/MAT_queries/MAT1-1_alpha.faa"
+  mat1_2_hmg: "resources/MAT_queries/MAT1-2_HMG.faa"
+  apn2: "resources/MAT_queries/APN2.faa"
+  sla2: "resources/MAT_queries/SLA2.faa"
+
+bgc:
+  run_antismash: true
+  antismash_extra: "--genefinding-tool prodigal-m"
+
+statistics:
+  response_traits:
+    - genome_size_bp
+    - gc_percent
+    - num_bgcs
+    - num_nr_pks
+  predictors:
+    - usnic_acid
+    - reproductive_mode
+    - substrate
+    - climate_zone

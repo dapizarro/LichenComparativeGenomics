@@ -1,0 +1,37 @@
+name: lichencomparativegenomics
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - snakemake>=8
+  - pandas
+  - numpy
+  - biopython
+  - scipy
+  - matplotlib
+  - seaborn
+  - pyyaml
+  - busco
+  - mafft
+  - trimal
+  - iqtree
+  - hmmer
+  - blast
+  - diamond
+  - orthofinder
+  - bedtools
+  - seqkit
+  - samtools
+  - augustus
+  - prodigal
+  - biopython
+  - r-base
+  - r-ape
+  - r-caper
+  - r-nlme
+  - r-phytools
+  - r-geiger
+  - r-tidyverse
+  - r-optparse
