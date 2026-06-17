@@ -22,24 +22,10 @@ This repository was developed from comparative genomics workflows originally est
 The framework implemented here generalizes analytical approaches developed in the following studies:
 
 ### Evolution of reproductive systems
-
-Pizarro D., Dal Grande F., Leavitt S.D., Dyer P.S., Schmitt I., Crespo A., Lumbsch H.T. & Divakar P.K. (2019)
-
-**Whole-genome sequence data uncover widespread heterothallism in the largest group of lichen-forming fungi.**
-
-*Genome Biology and Evolution* 11(3): 721–730.
-
-This work explored mating-type locus organization, MAT1-1/MAT1-2 distributions, and the evolutionary dynamics of reproductive systems across lichen-forming fungi.
+> Pizarro D., Dal Grande F., Leavitt S.D., Dyer P.S., Schmitt I., Crespo A., Lumbsch H.T. & Divakar P.K. (2019) **Whole-genome sequence data uncover widespread heterothallism in the largest group of lichen-forming fungi.** *Genome Biology and Evolution* 11(3): 721–730.
 
 ### Evolution of secondary metabolism
-
-Pizarro D., Divakar P.K., Grewe F., Crespo A., Dal Grande F. & Lumbsch H.T. (2020)
-
-**Genome-wide analysis of biosynthetic gene clusters reveals correlated gene loss with absence of usnic acid in lichen-forming fungi.**
-
-*Genome Biology and Evolution* 12(10): 1858–1868.
-
-This study investigated the genomic basis of secondary metabolite evolution through comparative analyses of biosynthetic gene clusters and candidate pathways involved in lichen natural product biosynthesis.
+> Pizarro D., Divakar P.K., Grewe F., Crespo A., Dal Grande F. & Lumbsch H.T. (2020) **Genome-wide analysis of biosynthetic gene clusters reveals correlated gene loss with absence of usnic acid in lichen-forming fungi.** *Genome Biology and Evolution* 12(10): 1858–1868.
 
 The current repository extends these concepts into a unified and reproducible comparative genomics framework applicable to lichen-forming fungi and other non-model eukaryotic systems.
 
