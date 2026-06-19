@@ -34,7 +34,7 @@ The current repository extends these concepts into a unified and reproducible co
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USER/LichenComparativeGenomics.git
+git clone https://github.com/dapizarro/LichenComparativeGenomics.git
 cd LichenComparativeGenomics
 
 mamba env create -f envs/lichencomparativegenomics.yml
